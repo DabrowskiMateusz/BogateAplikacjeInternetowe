@@ -20,3 +20,7 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function displayName() {
+    document.getElementById("demo").innerHTML = "Nazywam sie Mateusz Dąbrowski";
+}
